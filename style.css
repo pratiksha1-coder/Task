@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: black;
+    background-color: rgb(23, 58, 122, 0.9);
+    flex-direction: column;
+}
+
+.stopeWatch{
+    background-color: greenyellow;
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-size: 50px;
+    font-weight: bolder;
+
+}
+
+.timeDisplay{
+    font-size: 50px;
+    font-weight: bolder;
+
+}
+
+.button{
+    margin-top: 20px;
+}
+
+.btn{
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-inline: 12px;
+}
+
